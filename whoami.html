@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Gothic+A1');
+      *{ font-family: 'Gothic A1', sans-serif; }
+      a:link { color: black; text-decoration: none;}
+      a:visited { color: black; text-decoration: none;}
+      a:hover { color: black; text-decoration: none;}
+
+      div.top{
+        background: white;
+        position:fixed;
+        height:90px;
+        width:2000px;
+        left:0px;
+        top:0px;
+        box-shadow:1px 1px 4px gray;
+      }
+      div.travel {
+        position:fixed;
+        left:230px;
+        top:60px;
+      }
+      div.pic{
+        position:fixed;
+        left:280px;
+        top:60px;
+      }
+      div.aboutme{
+        position:fixed;
+        left:150px;
+        top:60px;
+      }
+      a.homebutton{
+        position:fixed;
+        left:10px;
+        top:10px;
+      }
+      div.myphoto{
+        z-index:1;
+        position:fixed;
+        left:80px;
+        top:150px;
+      }
+      ul{
+        z-index:999;
+        font-size:20px;
+        line-height:2;
+        position:fixed;
+        left:500px;
+        top:250px;
+      }
+      div.name{
+        animation-duration: 3s;
+        animation-name: slidein;
+        z-index:2;
+        position:fixed;
+        left:500px;
+        top:100px;
+        font-size:2.5em;
+      }
+      div.intro{
+        position:fixed;
+        left:500px;
+        top:450px;
+        width:520px;
+
+      }
+      p{
+        text-indent:10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <a class="homebutton" target="_self" href="home.html"><img src="jongle.png" alt="there is no image file" width="100"></a><br>
+      <div class="aboutme">
+        <a href="whoami.html">자기소개</a>
+      </div>
+      <div class="travel" ><a href="travel.html">여행</a></div>
+      <div class="pic" ><a href="photos.html">이미지</a></div>
+    </div><br><br><br><br><br>
+    <div class="me">
+      <div class="myphoto">
+        <img class="photo"src="me.jpeg" alt="no file" width="350px">
+      </div>
+      <div class="name">
+        <h1>채종의</h1>
+      </div>
+      <div class="myinfo">
+
+        <ul>
+          <li>나이 : 23살</li>
+          <a href="mailto:jongeui97@naver.com"><li>연락처 : jongeui97@naver.com</li></a>
+          <li>취미 : 여행다니기, 자전거 타기, 운동하기</li>
+        </ul>
+      </div>
+      <div class="intro">
+        <p>안녕하세요. 저는 다양한 곳과 많은 것을 해보고 싶어하는 23살 학생입니다. 종교는 천주교이며, 가족은 1남1녀 중 장남입니다. 다녀온 곳들은 미국, 일본, 사이판 그리고 국내 많은 여행지들이 있지만, 기회가 된다면 동남아시아 국가들을 다녀오고 싶습니다. 운동하는 것을 좋아하기 때문에 무에타이를 배우고 있고, 자전거를 즐겨 타고있습니다.</p>
+      </div>
+
+
+
+    </div>
+
+  </body>
+</html>
